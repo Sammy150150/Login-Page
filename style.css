@@ -4,13 +4,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 400px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px 20px 20px 20px;
 };
 
 .title {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -18,4 +17,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+input {
+    height: 30px;
 }
