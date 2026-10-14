@@ -1,4 +1,21 @@
 .login-box {
     border: 3px solid #000000;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
 };
+
+.title {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
