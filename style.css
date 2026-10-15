@@ -4,12 +4,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20px 20px 20px 20px;
-};
-
-.title {
-    display: flex;
-    justify-content: center;
+    padding: 15px 15px 15px 15px;
+    width: 300px;
 }
 
 body {
@@ -20,5 +16,14 @@ body {
 }
 
 input {
+    height: 20px;
+}
+
+button {
     height: 30px;
+}
+
+input, button {
+    margin-top: 5px;
+    width: 100%;
 }
