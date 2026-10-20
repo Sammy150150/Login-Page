@@ -5,7 +5,11 @@
     justify-content: center;
     flex-direction: column;
     padding: 15px 15px 15px 15px;
-    width: 300px;
+    box-sizing: border-box;
+    width: min(400px, 100% - 32px);
+    max-width: 400px;
+    box-shadow: 5px 5px 15px 5px #0245b0;
+    background-color: white;
 }
 
 body {
@@ -13,17 +17,34 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Monsieur La Doulaise", cursive;
+    background-color: #d9e7ff;
 }
 
 input {
-    height: 20px;
+    height: 30px;
 }
 
 button {
     height: 30px;
+    background-color: #039dfc;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+button:hover {
+    background-color: #8fbaff;
 }
 
 input, button {
+    box-sizing: border-box;
     margin-top: 5px;
     width: 100%;
+}
+
+
+.login-header {
+    text-align: center;
+    font-size: 50px;
 }
